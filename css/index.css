@@ -29,6 +29,7 @@ body{
     justify-content: center;
     align-items: center;
     width: 60%;
+    gap:5px;
 }
 .question{
     border-radius: 10px;
@@ -46,12 +47,12 @@ body{
 }
 .answer-active{
     border:2px solid black;
-    border-radius: 8px;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
-    padding:0 15px;
+    padding:0 13px;
 }
